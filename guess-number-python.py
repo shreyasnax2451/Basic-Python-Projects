@@ -1,7 +1,7 @@
 import random
 
 def guess_the_number():
-    guess_number = random.randint(0,10)
+    guess_number = random.randint(1,10)
     num_input = 0
 
     while guess_number != num_input:
