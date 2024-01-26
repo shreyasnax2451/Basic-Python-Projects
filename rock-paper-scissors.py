@@ -21,7 +21,7 @@ def rock_paper_scissors():
                 print(lose_statement)
             
         if input_answer == 's':
-            if computer_reply == 'r':
+            if computer_reply == 'p':
                 print(win_statement)
             else:
                 print(lose_statement)
