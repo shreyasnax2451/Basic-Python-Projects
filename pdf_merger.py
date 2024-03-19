@@ -5,7 +5,7 @@ class PDFFiles:
         merger = PdfWriter()
         with open('MERGER_OUTPUT.pdf', 'wb') as merger_pdf:
             for pdf_file in file_paths:
-                merger.append(pdf)
+                merger.append(pdf_file)
             merger.write(merger_pdf)
 
 pdffiles = PDFFiles()
